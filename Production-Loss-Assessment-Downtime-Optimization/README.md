@@ -1,26 +1,26 @@
 # Production Loss Assessment & Downtime Optimization in the Volve Field
 
-A production-engineering operations screening project built on Equinor's open Volve field
-production dataset. This is **not** a machine-learning, reservoir-simulation, or forecasting
-project — it is an operational analysis of well uptime, downtime, and production-loss
+A production engineering operations screening project built on Equinor's open Volve field
+production dataset. This is **not** a machine learning, reservoir simulation or forecasting
+project, it is an operational analysis of well uptime, downtime and production loss
 opportunity, built to answer the question a production engineer is actually asked:
 
-> **Where is production being lost, and which wells should be prioritized for production
+> **Where is production being lost and which wells should be prioritized for production
 > recovery efforts?**
 
 ## Project Overview
 
 Volve was a North Sea oil field operated by Equinor (and licence partners including
-ExxonMobil Exploration & Production Norway AS) from 2008 to 2016, and released as an open
+ExxonMobil Exploration & Production Norway AS) from 2008 to 2016 and released as an open
 dataset in 2018. This project uses the field's daily production records to build a
-reproducible operations-screening workflow: clean the data, quantify uptime and downtime by
+reproducible operations screening workflow: clean the data, quantify uptime and downtime by
 well, estimate the production opportunity lost to that downtime, evaluate rate efficiency
-while online, and combine those signals into a defensible well-prioritization framework.
+while online and combine those signals into a defensible well prioritization framework.
 
 ## Business Problem
 
-Production engineers are responsible for maximizing output from wells that already exist —
-which starts with knowing which wells are underperforming, by how much, and why. Two wells
+Production engineers are responsible for maximizing output from wells that already exist
+which starts with knowing which wells are underperforming, by how much and why. Two wells
 can both show "high downtime" and still represent very different problems: one because it's
 genuinely unreliable, another because its sheer production rate means even routine downtime
 costs the field a lot of oil. This project builds the screening layer that turns raw
